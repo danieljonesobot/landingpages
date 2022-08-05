@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Averta;
+    src: url(https://res.cloudinary.com/dafsch2zs/raw/upload/v1596618987/Zuri%20Landing/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+    /*overflow: hidden;*/
+}
+
+body {
+    height: 200vh;
+
+}
+
+.heroContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    background-image: url(hero-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: -10px 0px 0px 0px;
+}
+
+.topContainer {
+    margin-top: 100px;
+}
+
+
+div h2 {
+    color: #514949;
+    font-size: 35px;
+}
+
+.topMsg {
+
+    margin: 1px 200px 70px 200px;
+    padding: 1px 95px 1px 95px;
+    text-align: center;
+    color: #514949;
+    font-size: 16px;
+}
+
+.topMsg span {
+    color: red;
+}
+
+
+
+.topBtn button {
+    border: 1px solid red;
+}
+
+.btn1 {
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 250px;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: red;
+}
+
+.btn2 {
+    color: red;
+    background-color: white;
+    height: 50px;
+    width: 250px;
+}
+
+.btn2:hover {
+    background-color: red;
+    color: white;
+}
+
+.middleContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.middleContainer div h3 {
+    color: red;
+}
+
+
+.sloganContainer {
+    margin: 100px 0px 0px 0px;
+}
+
+.sloganContainer h3 {
+    text-align: center;
+}
+
+
+.slogan {
+    text-align: center;
+    color: #514949;
+    font-size: 20px;
+}
+
+
+.housing {
+
+    display: flex;
+}
+
+
+
+
+
+.leftDottedImg {
+    height: 0px;
+    width: 0px;
+}
+
+.rightDottedImg {
+    height: 0px;
+    width: 0px;
+}
+
+
+
+.threeBoxes {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    margin: 0px 60px 0px 60px;
+
+}
+
+.threeBoxes div {
+    border: 1px solid #fef9ef;
+    background-color: #fef9ef;
+    margin: 0px 10px 0px 10px;
+    padding: 40px 25px 10px 40px;
+    color: #514949;
+    font-size: 16px;
+}
+
+.threeBoxes span {
+    color: red;
+}
+
+.pageLinker {
+    text-decoration: none;
+}
+
+/* .rightDottedImg {
+    height: 200px;
+    width: 50px;
+
+} */
