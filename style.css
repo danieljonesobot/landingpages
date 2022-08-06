@@ -9,8 +9,9 @@
     /*overflow: hidden;*/
 }
 
+
 body {
-    height: 200vh;
+    height: 320vh;
 
 }
 
@@ -133,15 +134,19 @@ div h2 {
     display: flex;
     border: 1px solid black;
     justify-content: space-evenly;
-    margin: 0px 60px 0px 60px;
+    margin: 0px 60px 60px 60px;
+    /* position: absolute;
+    top: 900px;
+    left: 40px; */
 
 }
+
 
 .threeBoxes div {
     border: 1px solid #fef9ef;
     background-color: #fef9ef;
     margin: 0px 10px 0px 10px;
-    padding: 40px 25px 10px 40px;
+    padding: 50px 25px 75px 40px;
     color: #514949;
     font-size: 16px;
 }
@@ -154,8 +159,61 @@ div h2 {
     text-decoration: none;
 }
 
-/* .rightDottedImg {
-    height: 200px;
-    width: 50px;
 
-} */
+.leftImage {
+    border: 1px solid black;
+    height: 20px;
+    width: 18px;
+}
+
+
+
+.rightImage {
+    border: 1px solid black;
+    height: 20px;
+    width: 18px;
+}
+
+
+
+.topFooter {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 200px 0px 0px 0px;
+}
+
+.contactIcons {
+    display: flex;
+}
+
+#fHeader {
+    font-weight: bolder;
+}
+
+
+
+.bottomFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomFooter p {
+    font-weight: bolder;
+}
+
+
+.contactIcons img {
+    width: 18px !important;
+    margin-right: 5px;
+}
+
+.topFooter span {
+    color: red;
+}
+
+
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+}
