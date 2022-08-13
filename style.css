@@ -6,7 +6,6 @@
 * {
     box-sizing: border-box;
     font-family: Averta, sans-serif;
-    /*overflow: hidden;*/
 }
 
 
@@ -14,6 +13,9 @@ body {
     height: 320vh;
 
 }
+
+
+/***********Team page styling*************/
 
 .heroContainer {
     display: flex;
@@ -112,32 +114,25 @@ div h2 {
 .housing {
 
     display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
 }
 
 
-
-
-
-.leftDottedImg {
-    height: 0px;
-    width: 0px;
+.housing img {
+    width: 350px;
+    height: 500px;
 }
 
-.rightDottedImg {
-    height: 0px;
-    width: 0px;
-}
+
 
 
 
 .threeBoxes {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     justify-content: space-evenly;
-    margin: 0px 60px 60px 60px;
-    /* position: absolute;
-    top: 900px;
-    left: 40px; */
+    margin: -400px 60px 60px 60px;
 
 }
 
@@ -159,20 +154,6 @@ div h2 {
     text-decoration: none;
 }
 
-
-.leftImage {
-    border: 1px solid black;
-    height: 20px;
-    width: 18px;
-}
-
-
-
-.rightImage {
-    border: 1px solid black;
-    height: 20px;
-    width: 18px;
-}
 
 
 
@@ -206,6 +187,8 @@ div h2 {
 .contactIcons img {
     width: 18px !important;
     margin-right: 5px;
+
+
 }
 
 .topFooter span {
@@ -216,4 +199,398 @@ div h2 {
 footer hr {
     opacity: 0.2;
     border: 0.7px solid #514949;
+}
+
+/***********Team page styling-end*************/
+
+
+
+
+
+
+/*********** Talent page styling ***********/
+
+.navTalentPage {
+    /* border-bottom: #fef9ef 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 75px 0px 75px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    height: 110px;
+}
+
+.navLogo {
+    flex-grow: 1;
+    padding: 40px 0px 0px 0px;
+}
+
+.navLinks {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0.4;
+    /* padding: 0px 0px 10px 0px; */
+}
+
+
+.navLinks a {
+    text-decoration: none;
+    color: #514949;
+}
+
+.navLinks button {
+    border: 1px solid rgb(233, 5, 5);
+    background-color: rgb(233, 5, 5);
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.homeTalent {
+    /* border-top: 3px solid rgb(233, 5, 5); */
+}
+
+.talentFirstSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 110px -25px 0px 70px;
+    background-color: white;
+    height: 500px;
+
+}
+
+.talentBoxOne {
+    /* border: 1px solid black; */
+    padding: 90px 0px 0px 20px;
+    color: #a1a0a0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.vetted {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 1000;
+}
+
+
+.vetted span {
+    color: rgb(233, 5, 5);
+}
+
+
+.vetted img {
+    position: relative;
+    top: 18px;
+    left: -112px;
+}
+
+.talentMsg {
+    font-weight: 20;
+    /*************/
+}
+
+
+.talentBoxTwo img {
+    height: 450px;
+    width: 400px;
+}
+
+.line img {
+    height: 100px;
+    width: 170px;
+    position: relative;
+    top: 90px;
+    left: -40px;
+}
+
+.line2 img {
+    position: relative;
+    top: -25px;
+    left: -10px;
+}
+
+
+.boxOnebtn1 {
+    color: white;
+    background-color: rgb(233, 5, 5);
+    border: 1px solid rgb(233, 5, 5);
+    height: 40px;
+    width: 200px;
+    border-bottom-right-radius: 10px;
+}
+
+.boxOnebtn2 {
+    background-color: #514949;
+    border: 1px solid #514949;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-bottom-right-radius: 10px;
+
+}
+
+
+
+.talentSecondSection {
+    padding-top: 30px;
+    background-image: url("bgsection2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.talentBoxThree {
+    /* border: 1px solid black; */
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin-top: 100px;
+}
+
+
+.thousands {
+    color: rgb(233, 5, 5);
+}
+
+.undertxt {
+    font-size: 1.1rem;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.undertxt span {
+    color: #a1a0a0;
+
+}
+
+.flag {
+    background-color: white;
+    border: 1px solid white;
+    padding: 6px 15px 6px 15px;
+    border-radius: 10px;
+
+}
+
+.talentBoxFour {
+    /* border: 1px solid black; */
+    padding: 30px 0px 0px 30px;
+    margin: 20px 0px 0px 30px;
+}
+
+.talentBoxFour img {
+    height: 400px;
+    width: 400px;
+}
+
+
+.talentThirdSection {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin: 100px 0px 0px 70px;
+    /* border: 1px solid #514949; */
+    height: 550px;
+
+
+}
+
+
+#talent3 {
+    color: rgb(233, 5, 5);
+}
+
+.skill {
+    color: #a1a0a0;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 0.49em;
+    font-weight: 50;
+    padding: 12px 20px 12px 20px;
+    box-shadow: 0px 15px 20px rgb(233, 227, 240);
+    display: inline-block;
+
+}
+
+.skill:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 20px #fef9ef;
+    transform: translateY(-0.50em);
+    transition: 0.2s;
+}
+
+.employer {
+    color: #a1a0a0;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 0.49em;
+    font-weight: 50;
+    padding: 12px;
+    box-shadow: 0px 15px 20px rgb(233, 227, 240);
+    display: inline-block;
+}
+
+.employer:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 20px #fef9ef;
+    transform: translateY(-0.50em);
+    transition: 0.2s;
+}
+
+
+.talentFourthSection {
+    padding: 60px 0px 0px 70px;
+    /* border: #514949 1px solid; */
+    height: 900px;
+    background-color: #fefae0;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#cards {
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    border: 1px solid white;
+    padding: 20px 50px 50px 50px;
+    align-items: center;
+}
+
+#cards:hover {
+    background-color: rgb(34, 28, 28);
+    color: white;
+}
+
+.talentFourSectionHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 1000;
+    margin-bottom: 20px;
+}
+
+.talentfour {
+    color: rgb(233, 5, 5);
+}
+
+
+.talentCards1 {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid #514949; */
+    gap: 20px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.talentCards2 {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid #514949; */
+    gap: 20px;
+    margin: -150px 0px 0px 0px;
+
+}
+
+
+.rope {
+    position: relative;
+    top: -30px;
+    left: -90px;
+}
+
+
+.card1 {
+
+    background-color: red;
+    height: 270px;
+    width: 370px;
+
+}
+
+.card2 {
+
+    background-color: rebeccapurple;
+    height: 270px;
+    width: 370px;
+}
+
+.card3 {
+
+    background-color: royalblue;
+    height: 270px;
+    width: 370px;
+}
+
+.card4 {
+
+    background-color: rosybrown;
+    height: 270px;
+    width: 370px;
+}
+
+.card5 {
+
+    background-color: aqua;
+    height: 270px;
+    width: 370px;
+}
+
+
+
+.talentbottombtn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.talentFooter {
+    height: 200px;
+    background-color: rgb(34, 28, 28);
+}
+
+
+.talentBottom1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 70px 0px 70px;
+}
+
+.talentBottom2 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 70px 70px 0px 70px;
+}
+
+.talentContactIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+}
+
+.talentContactIcons img {
+
+    width: 35px;
+    height: 30px;
 }
