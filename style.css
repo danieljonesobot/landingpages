@@ -15,7 +15,7 @@ body {
 }
 
 
-/***********Team page styling*************/
+/***********Beginning of Team page styling*************/
 
 .heroContainer {
     display: flex;
@@ -201,14 +201,14 @@ footer hr {
     border: 0.7px solid #514949;
 }
 
-/***********Team page styling-end*************/
+/***********End of Team page styling************/
 
 
 
 
 
 
-/*********** Talent page styling ***********/
+/*********** Beginning of Talent page styling ***********/
 
 .navTalentPage {
     /* border-bottom: #fef9ef 1px solid; */
@@ -251,9 +251,7 @@ footer hr {
 
 }
 
-.homeTalent {
-    /* border-top: 3px solid rgb(233, 5, 5); */
-}
+
 
 .talentFirstSection {
     display: flex;
@@ -593,4 +591,109 @@ footer hr {
 
     width: 35px;
     height: 30px;
+}
+
+/*********** End of Talent page styling ***********/
+
+
+
+
+
+
+
+/*********** Beginning of Training page styling ***********/
+
+
+.navTrainingPage {
+    /* border-bottom: #fef9ef 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 75px 0px 75px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    height: 110px;
+    background-color: #fef9ef;
+    font-size: 19px;
+}
+
+.navLogoTraining {
+    flex-grow: 0.2;
+    padding: 40px 0px 0px 0px;
+}
+
+.navLinksTraining {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.5;
+    /* padding: 0px 0px 10px 0px; */
+}
+
+
+.navLinksTraining a {
+    text-decoration: none;
+    color: #514949;
+}
+
+.navLinksTraining button {
+    border: 1px solid rgb(233, 5, 5);
+    background-color: rgb(233, 5, 5);
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-bottom-right-radius: 10px;
+
+}
+
+
+#enroll {
+
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+
+}
+
+.enrollNow {
+    background-color: rgb(233, 5, 5);
+    height: 45px;
+    width: 200px;
+    position: relative;
+    top: 2px;
+    left: -10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.enrollNow a {
+    color: white;
+}
+
+
+.thumb {
+    background-color: rgb(233, 5, 5);
+    border-radius: 50%;
+    height: 70px;
+    width: 110px;
+    color: white;
+
+}
+
+#enroll img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
 }
