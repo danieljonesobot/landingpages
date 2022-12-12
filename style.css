@@ -1269,9 +1269,262 @@ footer hr {
 
 
 
+.section7 {
+    background-color: #fef9ef;
+    margin-top: -20px;
+    /* border: 1px solid black; */
+}
+
 .section7wire img {
     height: 100px;
     position: relative;
     top: 50px;
     left: 200px;
+}
+
+.section7Caption {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section7Caption span:nth-of-type(1) {
+    color: rgb(233, 5, 5);
+    font-size: 25px;
+}
+
+.section7Caption span:nth-of-type(2) {
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+
+.faqBottom {
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+
+.faqBottom a div:nth-of-type(1) {
+    border: 1px solid rgb(233, 5, 5);
+    border-radius: 25px;
+    background-color: rgb(233, 5, 5);
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.section8 {
+    background-color: #fef9ef;
+    margin-top: -35px;
+}
+
+.section8TopImages img {
+    height: 120px;
+}
+
+.section8TopImages img:nth-of-type(1) {
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+
+.section8TopImages img:nth-of-type(2) {
+    position: relative;
+    top: 10px;
+    left: 1000px;
+}
+
+
+.programOutline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programOutline p:nth-of-type(1) {
+    color: rgb(233, 5, 5);
+    font-size: 25px;
+}
+
+
+.programOutline p:nth-of-type(2) {
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.programOutline p:nth-of-type(3) {
+    color: #514949;
+    font-size: 20px;
+}
+
+.move img {
+    position: relative;
+    top: 350px;
+    left: -20px;
+}
+
+.programStructure {
+    display: flex;
+    justify-content: center;
+}
+
+.programStructure div {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 75px;
+    margin: 0px 20px 0px 20px;
+    color: white;
+    height: 720px;
+    width: 550px;
+    padding: 50px;
+}
+
+.programStructure div span {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+.programStructure p {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.programStructure p:nth-of-type(1) {
+    font-size: 15px;
+
+}
+
+.hour img {
+    height: 150px;
+    position: relative;
+    top: -180px;
+    left: 350px;
+}
+
+
+.time img {
+    height: 200px;
+    position: relative;
+    top: -50px;
+    left: 280px;
+}
+
+.circle1 {
+    height: 200px;
+    position: relative;
+    margin-top: -50px;
+    left: 250px;
+}
+
+.circle2 {
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 70px;
+}
+
+
+.getStartedcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+.getStarted {
+    height: 400px;
+    width: 1200px;
+    border-radius: 35px;
+    background-color: rgb(233, 5, 5);
+    margin: 150px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* line-height: 50px; */
+}
+
+.getStarted p:nth-of-type(2) {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.getStarted p {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.getStarted button {
+    color: rgb(233, 5, 5);
+    background-color: white;
+    border: 1px solid white;
+    height: 45px;
+    width: 180px;
+    border-radius: 35px;
+}
+
+.bend1 {
+    height: 250px;
+    position: relative;
+    top: -350px;
+    left: 510px;
+}
+
+.curve2 {
+    height: 150px;
+    position: relative;
+    top: -250px;
+    left: -550px;
+}
+
+
+.round {
+    position: relative;
+    top: -600px;
+    left: -400px;
+    height: 150px;
+}
+
+.mains {
+    height: 100px;
+    position: relative;
+    left: 1130px;
+    top: -100px;
+}
+
+.trainingFooter1 {
+    /* border: 1px solid black; */
+    height: 100px;
+    margin: 100px 0px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trainingFooterLogos {
+    /* border: 1px solid black; */
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trainingFooter2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+}
+
+
+.trainingFooter2Links {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 300px;
+    justify-content: space-evenly;
 }
